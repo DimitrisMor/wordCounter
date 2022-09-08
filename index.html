@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <style>
+        body{
+            width:90%;
+            margin:0;
+            margin-top: 1rem;
+            background-color: beige;
+        }
+
+        h4{
+            color: rgb(68, 67, 134);
+            margin-left: 50%;       
+        }
+
+        #text{
+            width:100%;
+            height: 50vh;
+            margin-left: 5%;            
+        }
+
+        #count-button{
+            cursor: pointer;
+            margin-left: 5%;
+            margin-top: 5px;
+        }
+
+        #clear-button{
+            cursor: pointer;            
+            background-color: yellow;
+            margin-left: 1%; 
+            margin-top: 5px;
+        }
+        #result{
+            margin-left: 5%;
+            color: rgb(41, 41, 66);
+            margin-top: 3%;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h4>Word Counter</h4>
+    <textarea name="text" id="text" placeholder="Enter text..."></textarea>
+    <button id="count-button">Count</button>
+    <button id="clear-button">Clear</button>
+    <div class="result" id="result"></div>
+</body>
+</html>
